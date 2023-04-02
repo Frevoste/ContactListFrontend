@@ -14,7 +14,9 @@ Frontend application with REST API architecture created using Angular. It allows
 To be fixed :(
 </details>
 <details><summary>Log In</summary>
-To do.
+Example data: 
+  email: exampleUser@example.com
+  password: example@1234
 </details>
 
 
