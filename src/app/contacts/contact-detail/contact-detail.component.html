@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-xs-12">
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h1>{{contact.firstName}} {{contact.lastName}}</h1>
+        <p>Phone: {{contact.phoneNumber}}</p>
+        <p>Email: {{contact.email}}</p>
+        <p>Birth date: {{contact.birthDate}}</p>
+        <p>Category: {{contact.category}}</p>
+        <p>Subcategory: {{contact.subCategory}}</p>
+    </div>
+    
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="btn-group" appDropdown>
+            <button type="button" class="btn btn-primary dropdown-toggle"> Manage Contact <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li style="cursor: pointer;"><a (click)="onEditContact()"> Edit Contact </a></li>
+                <li style="cursor: pointer;"><a (click)="onDeleteContact()">Delete Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

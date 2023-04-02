@@ -1,0 +1,42 @@
+<div class="row">
+    <div class="col-xs-12">
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+            <div class="row">
+                <div class="col-xs-12">
+                    <button type="submit" class="btn btn-success">Save</button>
+                    <button type="button" class="btn btn-danger" (click)="onCancel()">Cancel</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" formControlName="firstName" class="form-control">
+                </div>
+                <div class="col-xs-12">
+                    <label for="firstName">Last Name</label>
+                    <input type="text" id="lastName" formControlName="lastName" class="form-control">
+                </div>
+                <div class="col-xs-12">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" formControlName="email" class="form-control">
+                </div>
+                <div class="col-xs-12">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" id="phonenumber" formControlName="phoneNumber" class="form-control">
+                </div>
+                <div class="col-xs-12">
+                    <label for="birthDate">Birth Date</label>
+                    <input type="date" id="birthDate" formControlName="birthDate" class="form-control">
+                </div>
+                <div class="col-xs-12">
+                    <label for="category">Category</label>
+                    <input type="text" id="category" formControlName="category" class="form-control">
+                </div>
+                <div class="col-xs-12">
+                    <label for="subCategory">Subcategory</label>
+                    <input type="text" id="subCategory" formControlName="subCategory" class="form-control">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
