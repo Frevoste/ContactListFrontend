@@ -3,10 +3,10 @@
 Frontend application with REST API architecture created using Angular. It allows customer to create contact list for organization which can be seen by every participating person. And can be edited only by authorized users. For backend documentation please visit this link : https://github.com/Frevoste/ContactListBackend
 
 ## Table of contents
-* [Functionalities:](#Functionalities:)
+* [Functionalities](#functionalities)
 * [Setup/Angular](#setup)
 
-## Functionalities:
+## functionalities
 
 <details><summary>CRUD contact</summary>
 </details>
