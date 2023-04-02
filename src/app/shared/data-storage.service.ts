@@ -2,6 +2,7 @@ import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import { Contact } from "../contacts/contact.model";
 import { ContactService } from "../contacts/contact.service";
+import { Appuser } from "../login/appuser.model";
 @Injectable({providedIn: 'root'})
 export class DataStorageService{
     /**
@@ -34,7 +35,13 @@ export class DataStorageService{
         
     }
 
-   
+   onLogIn(appuser: Appuser){
+    console.log(JSON.stringify(appuser));
+    this.http.post('https://localhost:7011/api/account/login',JSON.stringify(appuser)).subscribe(response => {
+        console.log(response);
+
+    });
+   }
 
     onFetchData(){
         this.http.get<GetResponse>('https://localhost:7011/api/contact?searchPhrase=a&pageSize=5&pageNumber=1&sortBy=FirstName&sortDirection=ASC').subscribe(contacts => {

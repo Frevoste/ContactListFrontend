@@ -4,6 +4,7 @@ import { ContactDetailComponent } from "./contacts/contact-detail/contact-detail
 import { ContactEditComponent } from "./contacts/contact-edit/contact-edit.component";
 import { ContactStartComponent } from "./contacts/contact-start/contact-start.component";
 import { ContactsComponent } from "./contacts/contacts.component";
+import { LoginComponent } from "./login/login.component";
 
 const appRoutes: Routes = [
     {path: '', redirectTo: '/contacts', pathMatch:'full'},
@@ -13,6 +14,7 @@ const appRoutes: Routes = [
         {path:':id', component: ContactDetailComponent},
         {path: ':id/edit', component: ContactEditComponent}
     ]},
+    {path: 'login', component: LoginComponent},
 ];
 
 @NgModule({

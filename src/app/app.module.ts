@@ -14,6 +14,7 @@ import { ContactStartComponent } from './contacts/contact-start/contact-start.co
 import { ContactEditComponent } from './contacts/contact-edit/contact-edit.component';
 import { ContactService } from './contacts/contact.service';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HttpClientModule } from '@angular/common/http';
     ContactItemComponent,
     DropdownDirective,
     ContactStartComponent,
-    ContactEditComponent
+    ContactEditComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

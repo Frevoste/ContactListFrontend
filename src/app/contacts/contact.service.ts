@@ -34,6 +34,7 @@ export class ContactService {
       setContacts(contacts: Contact[]){
         this.contacts = contacts;
         this.contactsChanged.next(this.contacts.slice());
+        console.log(this.contacts);
         this.getContacts();
       }
 }
