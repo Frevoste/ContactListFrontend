@@ -17,6 +17,8 @@ To be fixed :(
 Example data: 
   email: exampleUser@example.com
   password: example@1234
+
+To be fixed, even tho data is sent correctly server response is 400.
 </details>
 
 
