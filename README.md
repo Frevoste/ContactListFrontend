@@ -1,5 +1,29 @@
-# ContactList
+# ContactListFrontend
 
+Frontend application with REST API architecture created using Angular. It allows customer to create contact list for organization which can be seen by every participating person. And can be edited only by authorized users. For backend documentation please visit this link : https://github.com/Frevoste/ContactListBackend
+
+## Table of contents
+* [Functionalities:](#Functionalities:)
+* [Setup/Angular](#setup)
+
+## Functionalities:
+
+<details><summary>CRUD contact</summary>
+</details>
+<details><summary>Save and fetch data</summary>
+To be fixed :(
+</details>
+<details><summary>Log In</summary>
+To do.
+</details>
+
+
+
+To do:
+* Fix fetching and saving data. Problems with displaying fetched data. It is stored in Contacts list, yet not displayed properly. Might be corelated with problem that occurs during creating new contact in which data is displayed properly but not saved in contactService.Contacts.
+* Inlcude authorization in Http requests.
+
+# Setup
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 
 ## Development server
