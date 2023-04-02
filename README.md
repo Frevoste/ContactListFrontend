@@ -14,7 +14,11 @@ Frontend application with REST API architecture created using Angular. It allows
 To be fixed :(
 </details>
 <details><summary>Log In</summary>
-To do.
+Example data: 
+  email: exampleUser@example.com
+  password: example@1234
+
+To be fixed, even tho data is sent correctly server response is 400.
 </details>
 
 
@@ -22,9 +26,15 @@ To do.
 To do:
 * Fix fetching and saving data. Problems with displaying fetched data. It is stored in Contacts list, yet not displayed properly. Might be corelated with problem that occurs during creating new contact in which data is displayed properly but not saved in contactService.Contacts.
 * Inlcude authorization in Http requests.
+* Categories dropdown
 
 # Setup
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+
+To run this project You have to use commands:
+*npm install
+*ng serve
+
 
 ## Development server
 
