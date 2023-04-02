@@ -24,6 +24,7 @@ Example data:
 To do:
 * Fix fetching and saving data. Problems with displaying fetched data. It is stored in Contacts list, yet not displayed properly. Might be corelated with problem that occurs during creating new contact in which data is displayed properly but not saved in contactService.Contacts.
 * Inlcude authorization in Http requests.
+* Categories dropdown
 
 # Setup
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
